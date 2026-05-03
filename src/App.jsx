@@ -26,7 +26,7 @@ function App() {
   const [toast, setToast] = useState(null);
   
   const chatMsgsRef = useRef(null);
-  const navbarRef = useRef(null);
+  const _navbarRef = useRef(null);
 
   // Helper Functions
   const showToast = (msg, type = 'info') => {
