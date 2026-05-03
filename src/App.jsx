@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-const API = import.meta.env.VITE_REACT_APP_API_URL || 'http://localhost:3000/api';
+const API = import.meta.env.VITE_REACT_APP_API_URL || 'https://project2-ckn8.vercel.app/api';
 let sessionId = localStorage.getItem('propbot_session') || ('sess_' + Math.random().toString(36).substr(2, 9));
 localStorage.setItem('propbot_session', sessionId);
 
